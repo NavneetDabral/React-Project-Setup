@@ -7,15 +7,7 @@ import configureStore from './store/configureStore'
 import {Provider} from 'react-redux';
 
 export let initialState={
-  appreducer:{
-      data:{
-          name:"navneet"
-      },
-      appState:{
-        test:true,
-        live:true
-      }   
-  }
+ 
 };
 const store = configureStore(initialState);
 window.store=store;

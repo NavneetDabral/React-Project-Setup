@@ -6,7 +6,7 @@ import appReducer from './appReducer'
 const rootReducer = (history) => combineReducers({
     router: connectRouter(history),
     form: formReducer,
-    appreducer:appReducer
+  
     // rest of your reducers
   })
 
